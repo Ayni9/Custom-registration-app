@@ -109,7 +109,7 @@ struct SignUpView: View {
             }
             .edgesIgnoringSafeArea(.bottom)
         }
-        .toolbar(.hidden)
+        .navigationBarHidden(true)
     }
 }
 

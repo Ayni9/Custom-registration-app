@@ -112,7 +112,7 @@ struct LoginView: View {
             }
             .edgesIgnoringSafeArea(.bottom)
         }
-        .toolbar(.hidden)
+        .navigationBarHidden(true)
     }
 }
 
