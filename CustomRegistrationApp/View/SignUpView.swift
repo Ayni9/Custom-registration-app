@@ -10,7 +10,7 @@ struct SignUpView: View {
     var body: some View {
         NavigationStack {
             ZStack(alignment: .topLeading) {
-                Color("color1").ignoresSafeArea()
+                Color("Color1").ignoresSafeArea()
                 VStack {
                     VStack(spacing: 40) {
                         ZStack {
@@ -95,7 +95,7 @@ struct SignUpView: View {
                             } label: {
                                 Text("SIGN IN")
                                     .font(.system(size: 18))
-                                    .foregroundColor(Color("color1"))
+                                    .foregroundColor(Color("Color1"))
                                     .fontWeight(.bold)
                             }
                         }

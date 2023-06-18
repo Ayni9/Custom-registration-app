@@ -24,7 +24,7 @@
 		9428F8D02A3F411900FEA802 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9428F8D82A3F42A700FEA802 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		9428F8DA2A3F42C200FEA802 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
-		9428F8DD2A3F42F100FEA802 /* CustomViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CustomViews.swift; path = CustomRegistrationApp/View/CustomViews.swift; sourceTree = SOURCE_ROOT; };
+		9428F8DD2A3F42F100FEA802 /* CustomViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CustomViews.swift; path = CustomRegistrationApp/Helpers/CustomViews.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +57,7 @@
 		9428F8C82A3F411400FEA802 /* CustomRegistrationApp */ = {
 			isa = PBXGroup;
 			children = (
-				9428F8DC2A3F42D300FEA802 /* Helpers */,
+				94C1C15B2A3F697B007361A4 /* Helpers */,
 				9428F8D72A3F429700FEA802 /* View */,
 				9428F8C92A3F411400FEA802 /* CustomRegistrationAppApp.swift */,
 				9428F8CD2A3F411900FEA802 /* Assets.xcassets */,
@@ -84,7 +84,7 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		9428F8DC2A3F42D300FEA802 /* Helpers */ = {
+		94C1C15B2A3F697B007361A4 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
 				9428F8DD2A3F42F100FEA802 /* CustomViews.swift */,

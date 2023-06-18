@@ -20,7 +20,7 @@ struct LoginView: View {
                             Ellipse()
                                 .frame(width: 458, height: 420)
                                 .padding(.trailing, -500)
-                                .foregroundColor(Color("color1"))
+                                .foregroundColor(Color("Color1"))
                                 .padding(.top, -200)
                             
                             Text("Welcome \nBack")
@@ -34,8 +34,8 @@ struct LoginView: View {
                         
                         VStack(spacing: 30) {
                             VStack(spacing: 30) {
-                                CustomTextField(placeHolder: "Email", imageName: "envelope", bColor: "textColor1", tOpacity: 0.6, value: $email)
-                                CustomTextField(placeHolder: "Password", imageName: "lock", bColor: "textColor1", tOpacity: 0.6, value: $password)
+                                CustomTextField(placeHolder: "Email", imageName: "envelope", bColor: "textcolor1", tOpacity: 0.6, value: $email)
+                                CustomTextField(placeHolder: "Password", imageName: "lock", bColor: "textcolor1", tOpacity: 0.6, value: $password)
                             }
                             
                             VStack(alignment: .trailing) {
@@ -46,7 +46,7 @@ struct LoginView: View {
                                     Button {
                                         self.isLinkActive.toggle()
                                     } label: {
-                                        CustomButton(title: "SIGN IN", bgColor: "color1")
+                                        CustomButton(title: "SIGN IN", bgColor: "Color1")
                                     }
                                 }
                             }
@@ -99,7 +99,7 @@ struct LoginView: View {
                         } label: {
                             Text("SIGN IN")
                                 .font(.system(size: 18))
-                                .foregroundColor(Color("color1"))
+                                .foregroundColor(Color("Color1"))
                                 .fontWeight(.bold)
                         }
                     }
